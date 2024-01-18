@@ -1,31 +1,31 @@
 /*
 		***** TABLA DE MULTIPLICAR *****
 	
-	Descripci髇:
-	El siguiente c骴igo resulve la t醔la de multiplicar dada por el usuario hasta el n鷐ero diez  
+	Descripci贸n:
+	El siguiente c贸digo resulve la t谩bla de multiplicar dada por el usuario hasta el n煤mero diez  
 	Fecha: 24-Febrero-2024
-	Versi髇: 1.0
+	Versi贸n: 1.0
 */
 
-#include <iostream>																			// Biblioteca estandar de entrada y salida de datos
+#include <iostream>																// Biblioteca estandar de entrada y salida de datos
 
-using namespace std;																		// Acceso a todas la funciones
-main()																						// Funci髇 principal
+using namespace std;																// Acceso a todas la funciones
+main()																		// Funci贸n principal
 {
 	
-	int tabla, resul;																		// Variables enteras para la tabla a calcular y para los resultados
-	int i;																					// Variable para el ciclo for
-	system("color f3");																		// Establece el color de fondo blanco claro
+	int tabla, resul;															// Variables enteras para la tabla a calcular y para los resultados
+	int i;																	// Variable para el ciclo for
+	system("color f3");															// Establece el color de fondo blanco claro
 	
-	setlocale(LC_CTYPE, "Spanish");															// Configura el idioma del texto en pantalla en espa駉l
-	cout<<"\t\tTabla de multiplicar";														// Imprime texto de titulo con dos tabulaciones
-	cout<<"\n\n縌ue tabla deseas calcular?: ";												// Imprime texto para pedir tabla a calcular con dos saltos de linea
-	cin>>tabla;																				// Asigna el valor a la variable tabla
+	setlocale(LC_CTYPE, "Spanish");														// Configura el idioma del texto en pantalla en espa帽ol
+	cout<<"\t\tTabla de multiplicar";													// Imprime texto de titulo con dos tabulaciones
+	cout<<"\n\n驴Que tabla deseas calcular?: ";												// Imprime texto para pedir tabla a calcular con dos saltos de linea
+	cin>>tabla;																// Asigna el valor a la variable tabla
 	
-	for(i=1; i<=10; i++)																	// Comienza el ciclo hasta el diez para resolver la tabla
+	for(i=1; i<=10; i++)															// Comienza el ciclo hasta el diez para resolver la tabla
 	{
-		resul= tabla * i;																	// Guarda el resultado de la multiplicaci髇 de la tabla por la variable i que cambia con respecto al ciclo for
-		cout<<"\n\n";																		// Agrega dos saltos de linea
+		resul= tabla * i;														// Guarda el resultado de la multiplicaci贸n de la tabla por la variable i que cambia con respecto al ciclo for
+		cout<<"\n\n";															// Agrega dos saltos de linea
 		cout<<tabla<<" x "<<i<<" = "<<resul;												// Imprime en consola el resultado de las multiplicaciones de la tabla
 	}
 	
