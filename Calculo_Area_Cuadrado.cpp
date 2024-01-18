@@ -1,24 +1,24 @@
 /*
 			***** AREA DEL CUADRADO *****
 			
-	Descripci髇:
-	El siguiente c骴igo calcula el area de un cuadrado a partir del valor dado por el usuario
+	Descripci贸n:
+	El siguiente c贸digo calcula el area de un cuadrado a partir del valor dado por el usuario
 	Fecha: 04-Febrero-2021
 	Version: 1.0
 */
 
 #include <iostream>															// Biblioteca estandar de salida y entrada	
 
-using namespace std;														// Acceso a todas las funciones
+using namespace std;															// Acceso a todas las funciones
 	
-main()																		// Funci髇 principal
+main()																	// Funci贸n principal
 {
 
 	float Lado, Area;														// Variables de valor y resultado
-	cout<<"Ingresa el valor de cualquier lado: ";							// Toma del valor del lado
-	cin>>Lado;																// Asignaci髇 del valor a variable lado
-	Area=(Lado*Lado);														// Calculo del 醨ea
-	cout<<"El area de tu cuadrado es: "<<Area;								// Impresi髇 de resultado en consola
+	cout<<"Ingresa el valor de cualquier lado: ";											// Toma del valor del lado
+	cin>>Lado;															// Asignaci贸n del valor a variable lado
+	Area=(Lado*Lado);														// Calculo del 谩rea
+	cout<<"El area de tu cuadrado es: "<<Area;											// Impresi贸n de resultado en consola
 	
-	return 0;																// Programa terminado exitosamente
+	return 0;															// Programa terminado exitosamente
 }
