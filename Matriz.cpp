@@ -1,44 +1,44 @@
 /*
 				***** MATRIZ *****
 		
-		Descripci髇:	
-		El siguiente c骴igo implementa el uso de una matriz de 4x2 partiendo de los valores de los campos
+		Descripci贸n:	
+		El siguiente c贸digo implementa el uso de una matriz de 4x2 partiendo de los valores de los campos
 		ingresados por el usuario.
 		Fecha: 16-Abril-2021
 		Version: 1.0
 */
 
-#include<iostream>																							// Biblioteca estandar de entrada y salida de datos
+#include<iostream>																	// Biblioteca estandar de entrada y salida de datos
 
-using namespace std;																						// Acceso a las funciones
+using namespace std;																	// Acceso a las funciones
 	
-main()																										// Funci髇 principal
+main()																			// Funci贸n principal
 {	
 
-	int matriz[4][2];																						// Declaraci髇 e inicializaci髇 de la matriz de 4x2
+	int matriz[4][2];																// Declaraci贸n e inicializaci贸n de la matriz de 4x2
 	
-	for(int f=0; f<4; f++)																					// Ciclo For de cuatro iteraciones correspondientes  a las filas
+	for(int f=0; f<4; f++)																// Ciclo For de cuatro iteraciones correspondientes  a las filas
 	{
-		for(int c=0; c<2; c++)																				// Ciclo For de 2 iteraciones correspondientes a las columnas
+		for(int c=0; c<2; c++)															// Ciclo For de 2 iteraciones correspondientes a las columnas
 		{
-			cout<<"Ingresa el valor de la posicion ["<<f+1<<"]["<<c+1<<"]: ";								// Imprime texto en consola requeriendo los valores posici髇 por posici髇
- 			cin>>matriz[f][c];																				// Asigna el valor a la posici髇 correspondiente con respecto a las iteraciones
+			cout<<"Ingresa el valor de la posicion ["<<f+1<<"]["<<c+1<<"]: ";								// Imprime texto en consola requeriendo los valores posici贸n por posici贸n
+ 			cin>>matriz[f][c];														// Asigna el valor a la posici贸n correspondiente con respecto a las iteraciones
 		}
 	}
 	
-	cout<<"\n\n\n";																							// Agrega tres saltos de linea
+	cout<<"\n\n\n";																	// Agrega tres saltos de linea
 	
-	cout<<"\t\t\tEL RESULTADO DE LA MATIZ ES";																// Imprime en consola con tres tabulaciones texto de resultado con tres iteraciones
+	cout<<"\t\t\tEL RESULTADO DE LA MATIZ ES";													// Imprime en consola con tres tabulaciones texto de resultado con tres iteraciones
 	
-	cout<<"\n\n\t\t\t\t";																					// Agrega dos saltos de linea junto con cuatro tabulaciones
+	cout<<"\n\n\t\t\t\t";																// Agrega dos saltos de linea junto con cuatro tabulaciones
 	
-	for(int f=0; f<4;f++)																					// Ciclo for de cuatro iteraciones correspondientes a las filas
+	for(int f=0; f<4;f++)																// Ciclo for de cuatro iteraciones correspondientes a las filas
 	{
-		for(int c=0; c<2; c++)																				// Ciclo for de dos iteraciones correspondientes a las columnas
+		for(int c=0; c<2; c++)															// Ciclo for de dos iteraciones correspondientes a las columnas
 		{
-			cout<<"|"<<matriz[f][c]<<"|";																	// Imprime en consola el resultado de la matriz
+			cout<<"|"<<matriz[f][c]<<"|";													// Imprime en consola el resultado de la matriz
 		}
-		cout<<"\n\t\t\t\t";																					// Agrega un salto de linea junto con tres tabulaciones
+		cout<<"\n\t\t\t\t";															// Agrega un salto de linea junto con tres tabulaciones
 	}
 
 	return 0;
