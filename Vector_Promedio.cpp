@@ -1,37 +1,37 @@
 /*
 				***** PROMEDIO DEL VECTOR *****
 		
-		Descripci髇:		
-		El siguiente c骴igo calcula el promedio de los valores dados por el usuario 
+		Descripci贸n:		
+		El siguiente c贸digo calcula el promedio de los valores dados por el usuario 
 		de un vector de diez posiciones.
 		Fecha: 25-Marzo-2021
-		Versi髇: 1.0
+		Versi贸n: 1.0
 */
 
-#include <iostream>																	// Biblioteca estandar de estrada y salida de datos
+#include <iostream>													// Biblioteca estandar de estrada y salida de datos
 
-using namespace std;																// Acceso a las funciones					
+using namespace std;													// Acceso a las funciones					
 						
-main()																				// Funci髇 principal
+main()															// Funci贸n principal
 {
 
-	int vector[10],acum=0;															// Declaraci髇 del vector e inicializaci髇 de un acumulador					
-	float promedio;																	// Declaraci髇 de la variable del promedio como tipo flotante	
-	system("color f3");																// Establece el color de fondo en blanco claro
+	int vector[10],acum=0;												// Declaraci贸n del vector e inicializaci贸n de un acumulador					
+	float promedio;													// Declaraci贸n de la variable del promedio como tipo flotante	
+	system("color f3");												// Establece el color de fondo en blanco claro
 	
-	for(int i=0; i<=9; i++)															// Ciclo for de diez iteraciones correspondientes a los espacios del vector
+	for(int i=0; i<=9; i++)												// Ciclo for de diez iteraciones correspondientes a los espacios del vector
 	{
-		cout<<"Ingresa el valor "<<i+1<<": ";										// Imprime texto en consola para la toma de valores
-		cin>>vector[i];																// Asignaci髇 de valor en la posici髇 del vector seg鷑 la iteraci髇
-		acum=vector[i]+acum;														// Suma del acumulador con el vector seg鷑 su iteraci髇
-		system("cls");																// Limpia texto en la consola
+		cout<<"Ingresa el valor "<<i+1<<": ";									// Imprime texto en consola para la toma de valores
+		cin>>vector[i];												// Asignaci贸n de valor en la posici贸n del vector seg煤n la iteraci贸n
+		acum=vector[i]+acum;											// Suma del acumulador con el vector seg煤n su iteraci贸n
+		system("cls");												// Limpia texto en la consola
 	
 	}
 		
-			promedio=acum/10; 	  												// C醠culo del promedio 
+			promedio=acum/10; 	  									// C谩lculo del promedio 
 	     	
-	    cout<<"\n\n";																// Agrega dos saltos de linea 
+	    cout<<"\n\n";												// Agrega dos saltos de linea 
 		cout<<"\t\tEl promedio del vector es: "<<promedio;							// Imprime texto en consola junto con el valor promedio		
 			
-	return 0;																		// Programa terminado con 閤ito
+	return 0;													// Programa terminado con 茅xito
 }	
