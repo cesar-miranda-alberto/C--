@@ -1,54 +1,54 @@
 /*
 				***** SUMA DE VECTORES *****
 		
-		Descripci髇:	
-		El presente c骴igo tiene como finalidad sumar los valores de dos vectores cuyos datos
-		ser醤 ingresados por el usuario.
+		Descripci贸n:	
+		El presente c贸digo tiene como finalidad sumar los valores de dos vectores cuyos datos
+		ser谩n ingresados por el usuario.
 		Fecha: 25-Marzo-2021
 		Version: 1.0
 */
 
-#include <iostream>																							// Biblioteca estandar de entrada y salida de datos
+#include <iostream>															// Biblioteca estandar de entrada y salida de datos
 
-using namespace std;																						// Acceso a las funciones
+using namespace std;															// Acceso a las funciones
 	
-main()																										// Funci髇 principal
+main()																	// Funci贸n principal
 {
 	
-	int A[5], B[5], C[5];																					// Declaraci髇 de los dos vectores a sumar y el vector de resultado
+	int A[5], B[5], C[5];														// Declaraci贸n de los dos vectores a sumar y el vector de resultado
 	int i;
-	system("color f3");																						// Establece el color del fondo en blanco claro
+	system("color f3");														// Establece el color del fondo en blanco claro
   
-    cout<<"Vector 1";																						// Impresi髇 de texto en consola de indicaci髇 del primer vector
-    cout<<"\n";																								// Agrega un salto de linea
+    cout<<"Vector 1";															// Impresi贸n de texto en consola de indicaci贸n del primer vector
+    cout<<"\n";																// Agrega un salto de linea
     
-    for(i=0; i<=4; i++)																						// Ciclo for de cinco iteraciones, las correspondientes a los espacios del vector
+    for(i=0; i<=4; i++)															// Ciclo for de cinco iteraciones, las correspondientes a los espacios del vector
     {
-      cout<<"Ingresa un numero en la posicion "<<i+1<<": ";													// Impresi髇 de texto en consola para pedir el valor mas su espacio correspondiente
-	  cin>>A[i];																							// Asignaci髇 de valor al vector en el espacio acorde a la iteraci髇
+      cout<<"Ingresa un numero en la posicion "<<i+1<<": ";										// Impresi贸n de texto en consola para pedir el valor mas su espacio correspondiente
+	  cin>>A[i];															// Asignaci贸n de valor al vector en el espacio acorde a la iteraci贸n
 	}
 	
-	cout<<"\n";																								// Agrega un salto de linea
-	cout<<"  VECTOR 2";																						// Impresi髇 de texto en consola de indicaci髇 del primer vector
+	cout<<"\n";															// Agrega un salto de linea
+	cout<<"  VECTOR 2";														// Impresi贸n de texto en consola de indicaci贸n del primer vector
 	
-	for(i=0; i<=4; i++)																						// Ciclo for de cinco iteraciones, las correspondientes a los espacios del vector
+	for(i=0; i<=4; i++)														// Ciclo for de cinco iteraciones, las correspondientes a los espacios del vector
     {
-    	cout<<"\n";																							// Agrega un salto de linea
-      cout<<" Ingresa un numero en la posicion "<<i+1<<": ";												// Impresi髇 de texto en consola para pedir el valor mas su espacio correspondiente
-	  cin>>B[i];																							// Asignaci髇 de valor al vector en el espacio acorde a la iteraci髇
+    	cout<<"\n";															// Agrega un salto de linea
+      cout<<" Ingresa un numero en la posicion "<<i+1<<": ";										// Impresi贸n de texto en consola para pedir el valor mas su espacio correspondiente
+	  cin>>B[i];															// Asignaci贸n de valor al vector en el espacio acorde a la iteraci贸n
 	}
 	
-	for(i=0; i<=4; i++)																						// Ciclo for de cinco iteraciones, las correspondientes a los espacios del vector de los resultados
+	for(i=0; i<=4; i++)														// Ciclo for de cinco iteraciones, las correspondientes a los espacios del vector de los resultados
 	{
-		C[i]= A[i]+B[i];																					// Suma de los dos vectores posici髇 por posici髇 acorde a las iteraciones 
+		C[i]= A[i]+B[i];													// Suma de los dos vectores posici贸n por posici贸n acorde a las iteraciones 
 	}
 	
-	cout<<"\n\n";																    						// Agrega dos saltos de linea
-	cout<<"\t\t\tLas sumas de los valores de los dos vectores son: ";										// Imprime texto en consola indicando los resultados
-	cout<<"\n";																								// Agrega un salto de linea
-	cout<<"\t\tVector 1     Vector 2     Resultado";														// Imprime texto en consola para identificar los vectores
-	cout<<"\n";																								// Agrega un salto de linea
-	for(i=0; i<=4; i++)																						// Ciclo for de cinco iteraciones para mostrar los resultados
+	cout<<"\n\n";															// Agrega dos saltos de linea
+	cout<<"\t\t\tLas sumas de los valores de los dos vectores son: ";								// Imprime texto en consola indicando los resultados
+	cout<<"\n";															// Agrega un salto de linea
+	cout<<"\t\tVector 1     Vector 2     Resultado";										// Imprime texto en consola para identificar los vectores
+	cout<<"\n";															// Agrega un salto de linea
+	for(i=0; i<=4; i++)														// Ciclo for de cinco iteraciones para mostrar los resultados
 	{
 		
       cout<<"\t\t   "<<A[i] <<"      +      " <<B[i]<< "   =        "<<C[i]<<"\n";							// Imprime en consola los resultados correspondientes
