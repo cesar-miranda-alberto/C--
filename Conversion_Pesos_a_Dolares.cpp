@@ -1,7 +1,7 @@
 /*
 							***** CONVERSOR DE PESOS A DOLARES *****
 		
-		Descripci髇:
+		Descripci贸n:
 		El siguiente programa muestra un convertidor de moneda de pesos a dolares
 		a partir de los datos dados por el usuario.
 		
@@ -10,22 +10,22 @@
 		
 */
 
-#include <iostream>																								// Biblioteca estandar de Entrada y Salida de datos
+#include <iostream>																	// Biblioteca estandar de Entrada y Salida de datos
 		
-using namespace std;																							// Acceso a todas las funciones
+using namespace std;																	// Acceso a todas las funciones
 	
-main()																											// Funci髇 principal
+main()																			// Funci贸n principal
 {
 	
-	float pesos, tcambio, dolares;																				// Declaraci髇 de variabes para moneda en pesos, tipo de cambio y equivalente en dolares 
+	float pesos, tcambio, dolares;															// Declaraci贸n de variabes para moneda en pesos, tipo de cambio y equivalente en dolares 
 				
 	
-	cout<<"\t\t\t CONVERSOR DE PESOS A DOLARES";																// Impresi髇 de texto en consola
-	cout<<"\n\n";																								// Asigna dos saltos de lines
-	cout<<"Ingresa los pesos que deseas convertir a dolares: ";													// Impresi髇 de requerimiento de moneda en pesos
-	cin>>pesos;																									// Asignaci髇 de dato dado por el usuario a la variable pesos
-	cout<<"Ingresa el tipo de cambio: ";																		// Requerimiento del tipo de cambio
-	cin>>tcambio;																								// Asignaci髇 del tipo de cambio a la variable tcambio
-	dolares=pesos/tcambio;																						// Conversi髇 de pesos a dolares
-	cout<<"\n\nTus "<<pesos<<" pesos equivalen, a "<<dolares<<" dolares";										// Impresi髇 de resultado con dos saltos de linea partiendo del ultimo texto impreso en consola
+	cout<<"\t\t\t CONVERSOR DE PESOS A DOLARES";													// Impresi贸n de texto en consola
+	cout<<"\n\n";																	// Asigna dos saltos de lines
+	cout<<"Ingresa los pesos que deseas convertir a dolares: ";											// Impresi贸n de requerimiento de moneda en pesos
+	cin>>pesos;																	// Asignaci贸n de dato dado por el usuario a la variable pesos
+	cout<<"Ingresa el tipo de cambio: ";														// Requerimiento del tipo de cambio
+	cin>>tcambio;																	// Asignaci贸n del tipo de cambio a la variable tcambio
+	dolares=pesos/tcambio;																// Conversi贸n de pesos a dolares
+	cout<<"\n\nTus "<<pesos<<" pesos equivalen, a "<<dolares<<" dolares";										// Impresi贸n de resultado con dos saltos de linea partiendo del ultimo texto impreso en consola
 }
