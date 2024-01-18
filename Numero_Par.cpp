@@ -1,31 +1,31 @@
 /*
 		***** NUMERO PAR *****
 	
-	Descripci髇:
-	El siguiente programa determina si un n鷐ero es par o no a partir de los datos
+	Descripci贸n:
+	El siguiente programa determina si un n煤mero es par o no a partir de los datos
 	dados por el usuario.
 	Fecha: 08-Febrero-2021
 	Version: 1.0
 	
 */
 
-#include <iostream>																						// Biblioteca estandar de entrada y salida de datos
+#include <iostream>															// Biblioteca estandar de entrada y salida de datos
 
-using namespace std;																					// Acceso a todas las funciones 
+using namespace std;															// Acceso a todas las funciones 
 
-main()																									// Funci髇 principal
+main()																	// Funci贸n principal
 
 {	
 	
-	int num;																							// Declaraci髇 de variables a utilizar 
+	int num;															// Declaraci贸n de variables a utilizar 
 	
-	cout<<"\t\tPrograma que indica si un numero es par y escriba dicho numero";							// Impresi髇 de texto en consola con dos tabulaciones
-	cout<<"\n\n";																						// Agrega dos saltos de linea
-	cout<<"Ingresa el numero: ";																		// Toma de requerimientos
-	cin>>num;																							// Asignaci髇 de valor a la variable
-	if(num % 2 == 0)																					// Toma de desici髇 si el residuo del numero divido es cero
+	cout<<"\t\tPrograma que indica si un numero es par y escriba dicho numero";							// Impresi贸n de texto en consola con dos tabulaciones
+	cout<<"\n\n";															// Agrega dos saltos de linea
+	cout<<"Ingresa el numero: ";													// Toma de requerimientos
+	cin>>num;															// Asignaci贸n de valor a la variable
+	if(num % 2 == 0)														// Toma de desici贸n si el residuo del numero divido es cero
 	{
-		cout<<num<<" es un numero par.";																// Impresi髇 del texto en consola si el n鷐ero es para
+		cout<<num<<" es un numero par.";											// Impresi贸n del texto en consola si el n煤mero es para
 	}
   	 else
 	 {
