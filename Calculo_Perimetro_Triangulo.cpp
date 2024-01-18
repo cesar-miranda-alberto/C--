@@ -1,31 +1,31 @@
 /*
 		***** PERIMETRO DE UN TRIANGULO *****
 	
-	Descripci髇:
-	El presente c骴igo calcula el 醨ea de un triangulo partiendo de los valores
-	dados por el usuario siguiendo la f髍mula 
+	Descripci贸n:
+	El presente c贸digo calcula el 谩rea de un triangulo partiendo de los valores
+	dados por el usuario siguiendo la f贸rmula 
 	P= A+B+C
 */
 
-#include <iostream>																						// Biblioteca estandar de entrada y salida de los datos
+#include <iostream>															// Biblioteca estandar de entrada y salida de los datos
 
-using namespace std;																					// Acceso a las funciones
+using namespace std;															// Acceso a las funciones
 
-main()																									// Funci髇 principal
+main()																	// Funci贸n principal
 {
 	
-	float Cady, Cop, Hipo, Are;																			// Declaraci髇 de variables
+	float Cady, Cop, Hipo, Are;													// Declaraci贸n de variables
 	
 	cout<<"\t\tprograma que calcula el perimetro de un triangulo rectangulo";							// Imprime texto de titulo 
-	cout<<"\n\n";																						// Agrega dos saltos de linea
-	cout<<"Escribe el valor del cateto adyacente: ";													// Toma de requerimientos
-	cin>>Cady;																							// Asignaci髇 de valor a la variable cady
-	cout<<"Escribe el valor del cateto opuesto: ";														// Toma de requerimientos
-	cin>>Cop;																							// Asignaci髇 de valor a la variable cop
-	cout<<"Escribe el valor de la hipotenusa: ";														// Toma de requerimiento
-	cin>>Hipo;																							// Asignaci髇 de valor a la variable hipotenusa
-	Are=Cady+Cop+Hipo;																					// Calculo de 醨ea 
-	cout<<"El perimetro del triagulo rectangulo es: "<<Are;												// Imprensi髇 del resultado en consola
+	cout<<"\n\n";															// Agrega dos saltos de linea
+	cout<<"Escribe el valor del cateto adyacente: ";										// Toma de requerimientos
+	cin>>Cady;															// Asignaci贸n de valor a la variable cady
+	cout<<"Escribe el valor del cateto opuesto: ";											// Toma de requerimientos
+	cin>>Cop;															// Asignaci贸n de valor a la variable cop
+	cout<<"Escribe el valor de la hipotenusa: ";											// Toma de requerimiento
+	cin>>Hipo;															// Asignaci贸n de valor a la variable hipotenusa
+	Are=Cady+Cop+Hipo;														// Calculo de 谩rea 
+	cout<<"El perimetro del triagulo rectangulo es: "<<Are;										// Imprensi贸n del resultado en consola
 	
 	return 0;
 }
