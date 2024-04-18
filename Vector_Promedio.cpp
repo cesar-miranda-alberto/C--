@@ -24,7 +24,7 @@ main()															// Función principal
 		cout<<"Ingresa el valor "<<i+1<<": ";									// Imprime texto en consola para la toma de valores
 		cin>>vector[i];												// Asignación de valor en la posición del vector según la iteración
 		acum=vector[i]+acum;											// Suma del acumulador con el vector según su iteración
-		system("cls");												// Limpia texto en la consola
+		system("cls");												
 	
 	}
 		
